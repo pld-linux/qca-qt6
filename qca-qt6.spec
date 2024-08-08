@@ -81,6 +81,7 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_libdir}/qt6/bin/mozcerts-qt6
 %attr(755,root,root) %{_libdir}/qt6/bin/qcatool-qt6
 %dir %{_libdir}/qt6/plugins/crypto
+%attr(755,root,root) %{_libdir}/qt6/plugins/crypto/libqca-botan.so
 %attr(755,root,root) %{_libdir}/qt6/plugins/crypto/libqca-cyrus-sasl.so
 #%attr(755,root,root) %{_libdir}/qt6/plugins/crypto/libqca-gcrypt.so
 %attr(755,root,root) %{_libdir}/qt6/plugins/crypto/libqca-gnupg.so
